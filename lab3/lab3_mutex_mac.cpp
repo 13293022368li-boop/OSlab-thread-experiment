@@ -31,7 +31,7 @@ void* colB(void*) {
         gotoXY(5 + i, 3);
         printf("B");
         fflush(stdout);
-        usleep(60000);
+        usleep(600000);
         sem_post(&sem);
     }
     return NULL;
